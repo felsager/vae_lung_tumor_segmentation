@@ -1,5 +1,6 @@
+models/
+losses/
 imagesTr/
 imagesTs/
 labelsTr/
 augmenteddata/
-
