@@ -1,6 +1,3 @@
-models/
-losses/
-imagesTr/
-imagesTs/
-labelsTr/
+saved_models/
+raw_data/ 
 augmenteddata/
