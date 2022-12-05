@@ -1,0 +1,6 @@
+No.	Activation	Weight initialization	Optimizer	LR	Convergence dev loss	Epochs (convergence)	Produces different output for different input	Loss functions and weighting	Input size	Extra bottleneck dense layers	Datasets	Batch size	Epoch time(s)
+13	Leaky Relu (0.01)	Kaiming normal (for conv)	AdamW	1.00E-05	0.3187	160	Yes	BCE + 1e-6*KLD	256	No	Multiple organs random split	64	
+14	Leaky Relu (0.1)	Kaiming normal (for conv)	AdamW	5.00E-05	0.3073	33	Yes	BCE + 1e-6*KLD	256	No	Multiple organs random split	64	
+15	Leaky Relu (0.1)	Kaiming normal (for conv)	AdamW	1.00E-04	0.3109	18	Yes	BCE + 1e-6*KLD	256	No	Multiple organs random split	64	
+16	Leaky Relu (0.2)	Default torch	AdamW	5.00E-05	0.3206	33	Yes	BCE + 1e-6*KLD	256	No	Multiple organs random split	64	
+17	Leaky Relu (0.1)	Kaiming normal (for conv)	AdamW	5.00E-05				BCE + 1e-6*KLD	257	No	Multiple organs random split	65	104
