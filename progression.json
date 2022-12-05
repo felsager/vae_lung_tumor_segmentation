@@ -1,0 +1,16 @@
+{
+    "loaded": {
+        "pancreas": false,
+        "spleen": true,
+        "colon": true,
+        "lung": true,
+        "liver": true
+    },
+    "augmented": {
+        "pancreas": false,
+        "spleen": false,
+        "colon": false,
+        "lung": false,
+        "liver": false
+    }
+}
