@@ -1,4 +1,4 @@
-No.;Activation;Weight initialization;Optimizer;LR;Convergence dev loss;Epochs (convergence);Produces different output for different input;Loss functions and weighting;Input size;Extra bottleneck dense layers;Datasets;Batch size;Epoch time(s);Batch norn;LR / Batch size * 1e7;;Optimal LR/Batch size * 10e6
+No.;Activation;Weight initialization;Optimizer;LR;Convergence dev loss;Epochs (convergence);Produces different output for different input;Loss functions and weighting;Input size;Extra bottleneck dense layers;Datasets;Batch size;Epoch time(s);Batch norn;LR / Batch size * 1e7;;Default LR/Batch size * 10e6
 13;Leaky Relu (0.01);Kaiming normal (for conv);AdamW;1.00E-05;0.3187;160;Yes;BCE + 1e-6*KLD;256;No;Multiple organs random split;64;;Every layer;1.5625;;9.375
 14;Leaky Relu (0.1);Kaiming normal (for conv);AdamW;5.00E-05;0.3073;33;Yes;BCE + 1e-6*KLD;256;No;Multiple organs random split;64;;Every layer;7.8125;;
 15;Leaky Relu (0.1);Kaiming normal (for conv);AdamW;1.00E-04;0.3109;18;Yes;BCE + 1e-6*KLD;256;No;Multiple organs random split;64;;Every layer;15.625;;
@@ -11,4 +11,15 @@ No.;Activation;Weight initialization;Optimizer;LR;Convergence dev loss;Epochs (c
 22;Leaky Relu (0.05);Kaiming normal (for conv);AdamW;3.00E-04;0.3131;13;Yes;BCE + 1e-6*KLD;256;No;Multiple organs random split;256;;No layer;11.71875;;
 23;Leaky Relu (0.05);Kaiming normal (for conv);AdamW;2.40E-03;0.317;8;?;BCE + 1e-6*KLD;256;No;Multiple organs random split;256;;No layer;93.75;;
 24;Leaky Relu (0.05);Kaiming normal (for conv);AdamW;9.60E-03;0.322;10;?;BCE + 1e-6*KLD;256;No;Multiple organs random split;1024;;No layer;93.75;;
-25;Leaky Relu (0.05);Kaiming normal (for conv);AdamW;1.50E-02;;;;BCE + 1e-6*KLD;256;No;Multiple organs random split;1024;;No layer;146.484375;;
+25;Leaky Relu (0.05);Kaiming normal (for conv);AdamW;1.20E-02;"""oscillating""";;?;BCE + 1e-6*KLD;256;No;Multiple organs random split;1024;;No layer;117.1875;;
+26;Leaky Relu (0.05);Kaiming normal (for conv);AdamW;2.00E-03;0.322;8;?;BCE + 1e-6*KLD;256;No;Multiple organs random split;1024;;No layer;19.53125;;
+27;Leaky Relu (0.05);Kaiming normal (for conv);AdamW;1.00E-03;;;yes;BCE + 1e-6*KLD;256;No;Multiple organs random split;1024;;No layer;9.765625;;
+28;Leaky Relu (0.05);Kaiming normal (for conv);AdamW;;;;yes;BCE + 1e-6*KLD;256;No;Multiple organs random split;;;No layer;#DIVISION/0!;;
+29;;;;;;;;;;;;;;;#DIVISION/0!;;
+30;;;;;;;;;;;;;;;#DIVISION/0!;;
+31;;;;;;;;;;;;;;;#DIVISION/0!;;
+32;;;;;;;;;;;;;;;#DIVISION/0!;;
+33;;;;;;;;;;;;;;;;;
+34;;;;;;;;;;;;;;;;;
+35;;;;;;;;;;;;;;;;;
+36;;;;;;;;;;;;;;;;;
