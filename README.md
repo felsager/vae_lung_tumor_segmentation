@@ -14,3 +14,6 @@
 
 **Nick**:
 > Changed preprocessed-data-directory name from `augmenteddata` to `prep_data`. Also changed in notebook.
+
+**Nick**:
+> Organized notebook. Added working checkpointing, i.e automatic VAE-model-saving.
