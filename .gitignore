@@ -1,7 +1,7 @@
-saved_models/
 raw_data/
-augmenteddata/
 prep_data/
-inspiration/
 repdata/
+augmenteddata/
 checkpoints/
+saved_models/
+notebooks/.old_notebooks/
