@@ -1,19 +1,2 @@
-# VAE lung tumor segmentation
-
-## Changelog
-
-**Nick**:
-> Changed `prep_data()` to be able to take a desired resolution. \
-> For the rest of the code to work, please rename your datasets on the form:
->
->   organ`_`type`_slices_`resolution`.pt`
->
-> as shown in this picture:
-> \
-> ![screenshot](figures/for_changelog_1.png)
-
-**Nick**:
-> Changed preprocessed-data-directory name from `augmenteddata` to `prep_data`. Also changed in notebook.
-
-**Nick**:
-> Organized notebook. Added working checkpointing, i.e automatic VAE-model-saving.
+# VAE-based Tumor Segmentation
+This repository contains the files and notebooks, which accompany our (Nicklas Vraa and David Felsager) final project reports. We cannot provide our data, as they take up several Gigabytes of space, but the raw datasets can be found [here](http://medicaldecathlon.com/). Thank you for your attention.
