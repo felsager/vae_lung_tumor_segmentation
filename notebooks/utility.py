@@ -55,9 +55,11 @@ def load_optimizer(dir, optimizer, epoch=0):
 
 # Visualizing performance. -----------------------------------------------
 def superimpose(image, label):
-    plt.imshow(torch.squeeze(image), cmap='gray')
-    plt.imshow(torch.squeeze(label), cmap=cmap_seg)
-    plt.show()
+    fig, axs = plt.subplots(1, 2, figsize=(8,5))
+    axs[0].imshow(torch.squeeze(image), cmap='gray')
+    axs[1].imshow(torch.squeeze(image), cmap='gray')
+    axs[1].imshow(torch.squeeze(label), cmap=cmap_seg)
+    fig.canvas.draw()
 
 def draw(x, x_hat):
     fig, axs = plt.subplots(1, 2, figsize=(8,5))
