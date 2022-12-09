@@ -1,13 +1,8 @@
 # Importing libraries. --------------------------------------------------
 import torch
 from torch.utils.data import Dataset
-
-# For displaying and evaluating results.
-import numpy as np
 from matplotlib import pyplot as plt
 from matplotlib.colors import ListedColormap
-
-# For monitoring resource-usage and progress.
 import os
 from os.path import join
 
