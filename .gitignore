@@ -3,4 +3,5 @@ prep_data/
 repdata/
 augmenteddata/
 checkpoints/
+saved_models_2/
 notebooks/.old_notebooks/
