@@ -53,6 +53,13 @@ def load_optimizer(dir, optimizer, epoch=0):
     return optimizer
 
 
+# Guaging performance. ---------------------------------------------------
+def IoU(label, recon, thresh):
+    inter = ((label >= thresh) & (recon >= thresh)) * 1.0
+    union = ((label >= thresh) | (recon >= thresh)) * 1.0
+    return inter.sum() / union.sum() / label.shape[0]
+
+
 # Visualizing performance. -----------------------------------------------
 def superimpose(image, label):
     fig, axs = plt.subplots(1, 2, figsize=(8,5))
