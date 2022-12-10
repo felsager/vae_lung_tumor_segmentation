@@ -1,4 +1,5 @@
-# Changelog:
+# Debugging/Change Log
+
 > **Nick**: Model not reconstructing well.
 > - Rewrote entire VAE model architecture. Needs testing. Old architecture is saved in .old_notebooks/
 
